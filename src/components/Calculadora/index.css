@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    /* background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%); */
+}
+
+.topo div {
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 320px;
+    height: 506px;
+    background-color: rgb(189, 216, 237);
+    border-radius: 5px;
+}
+
+.display {
+    box-sizing: border-box;
+    height: 101px;
+    font-size: 35px;
+    padding-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu {
+    box-sizing: border-box;
+    height: 35px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-left {
+    display: flex;
+    align-items: center;
+}
+
+.text-default {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.menu-left button {
+    border: none;
+    background-color: rgb(189, 216, 237);
+}
+
+.menu-left button {
+    outline: none;
+}
+
+.menu-left i {
+    font-size: 30px;
+    color: #0093E9;
+}
+
+.menu-right i {
+    font-size: 15px;
+}
+
+.numbers {
+    box-sizing: border-box;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.numbers > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.numbers > div > button {
+    width: 74px;
+    height: 60px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    background-color: rgb(215, 234, 244);
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.numbers > div > button:hover {
+    /* background-color: #aab5b9; */
+    background-color: #9C9C9C;
+}
+
+.numbers > div > button.equal {
+    width: 148px;
+    background-color: rgb(112, 176, 225);
+}
+
+.topo {
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 14px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

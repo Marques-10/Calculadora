@@ -1,0 +1,10 @@
+.topo {
+    box-sizing: border-box;
+    height: 35px;
+    font-size: 14px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
